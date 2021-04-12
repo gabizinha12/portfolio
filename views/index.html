@@ -1,0 +1,24 @@
+<%-include('partials/header.html') %>
+<body>
+    <button class="uk-button uk-button-secondary uk-margin-small-right uk-margin-small-top uk-margin-small-left" type="button" uk-toggle="target: #offcanvas-nav-primary">Menu</button>
+
+    
+    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+    
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                <li class="uk-active"><a href="#">Home</a></li>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: code; ratio:1.3"></span> Projetos</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: star; ratio:1.3"></span> Experiência</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: info; ratio:1.3"></span> Sobre mim</a></li>
+                    </ul>
+    
+            </ul>
+    
+        </div>
+
+    </div>
+<img data-src="/public/photo.jpg" alt="teste" uk-img>
+</body>
+<%-include('partials/footer.html') %>
