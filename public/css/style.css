@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;800&display=swap");
+body {
+  font-family: "Spartan", sans-serif;
+}
+.main__title {
+  padding: 15px 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.skills__heading {
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  background: #7474bf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #348ac7,
+    #7474bf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #348ac7,
+    #7474bf
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.img__container {
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.colors__main {
+  color: black;
+  padding: 2rem;
+}
+.about__me {
+  padding-bottom: 0.5rem;
+}
+.container__about {
+  width: 100%;
+}
+.text {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.work__icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  margin-top: 10px;
+}
+
+.skills__main {
+  padding: 2rem 2rem 1rem;
+}
+.text__back {
+  font-weight: bold;
+}
+.text__front {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.text__programming {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.text__riachuelo {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.text__mobitype {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.text__chat2desk {
+  font-weight: bold;
+  margin-top: 15px;
+}
+.subtitles {
+  display: flex;
+  flex-direction: row;
+}
+.gamer__title {
+  padding: 0 1rem;
+}
+.text__university {
+  font-weight: 800;
+}
+.text__rocketseat {
+  font-weight: 800;
+  margin-top: 10px;
+}
+.contact__main {
+  padding: 2rem;
+}
+.container__contact {
+  font-size: 23px;
+}

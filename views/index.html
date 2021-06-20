@@ -1,24 +1,66 @@
 <%-include('partials/header.html') %>
-<body>
-    <button class="uk-button uk-button-secondary uk-margin-small-right uk-margin-small-top uk-margin-small-left uk-margin-small-bottom" type="button" uk-toggle="target: #offcanvas-nav-primary">Menu</button>
-
-    
-    <div id="offcanvas-nav-primary" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-    
-            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-                <li class="uk-active"><a href="#">Home</a></li>
-                    <ul class="uk-nav-sub">
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: code; ratio:1.3"></span> Projetos</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: star; ratio:1.3"></span> Experiência</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: info; ratio:1.3"></span> Sobre mim</a></li>
-                    </ul>
-    
-            </ul>
-    
-        </div>
-
+<div class="container">
+    <h1 class="main__title">Gabrielle Lima Pereira 👩‍💻</h1>
+    <img src="../public/assets/photo.jpg" alt="My photo" class="img__container" />
+  <div class="colors__main">
+    <div class="subtitles">
+        <h2 class="subtitle__title">Back end Developer ⚙️ |</h2>
+        <h2 class="gamer__title">Avid Gamer 🎮 |</h2>
+        <h2 class="chef__title">Wannabe Chef 🍳</h2>
     </div>
+    <h2>Sobre mim ❓</h2>
+    <div class="about__me">
+      <div class="container__about">
+        <h1 class="work__icon"></h1>
+          <img src="../public/assets/riachuelo.svg" alt="Logo Empresa" />
+        </h1>
+        <p class="text__riachuelo"> Riachuelo S.A - Jun 2021  / Atual</p>
+        <p class="text">Atualmente trabalho na Riachuelo como Trainee, no programa de formação Up!Tech</p>
+        <p class="text__mobitype"> Mobitype - Mar 2021 / Mai 2021</p>
+        <p class="text">Construía back-ends baseados em Express com Nodejs, geralmente feitos com MongoDB ou SQL Server</p>
+        <p class="text__chat2desk"> Chat2Desk - Jan 2021 / Mar 2021</p>
+        <p class="text">Dava manutenção na API e no sistema de Omnichannel, fazendo várias requisições em Node/Express 
+            Criava novas features e ajustava o front-end do sistema.
+            Banco em Postgres e front com EJS/JQuery/JS Vanilla/Bootstrap
+        </p>  
+    </div>
+    </div>
+  </div>
+  <div class="skills__main">
+    <h2 class="skills__heading">Habilidades 🤓</h2>
+    <div class="about__me">
+      <div class="container__about">
+        <p class="text__back">Back-end 🧱:</p>
+        <p class="text">Nodejs, Express, EJS, Postgres, Docker, MySQL, NoSQL</p>
+        <p class="text__front">Front-end 💅:</p>
+        <p class="text">HTML, CSS, Javascript, Sass, BEM</p>
+        <p class="text__programming">Linguagens de Programação 🧩:</p>
+        <p class="text">Javascript, Typescript, Java e um pouco de Python</p>
+      </div>
+    </div>
+  </div>
+  <div class="education__main">
+    <h2 class="education__heading">Educação 📚</h2>
+    <div class="about__me">
+      <div class="container__about">
+        <p class="text__university">Faculdade de Tecnologia Impacta:</p>
+        <p class="text">Análise e Desenvolvimento de Sistemas</p>
+        <p class="text__rocketseat">Ignite Nodejs:</p>
+        <p class="text">Nodejs, TDD, SOLID, Clean Code, Typescript, Docker, AWS, Serverless, TypeORM, Postgres</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact__main">
+    <h2 class="contact__heading">Contato ✉️</h2>
+    <div class="about__me">
+      <div class="container__contact">
+        <p class="text">Github:</p>
+        <p class="text__github">@gabizinha12</p>
+        <p class="text">LinkedIn:</p>
+        <p class="text__linkedin">/gabrielle-cristine-de-lima-pereira/</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-</body>
 <%-include('partials/footer.html') %>
